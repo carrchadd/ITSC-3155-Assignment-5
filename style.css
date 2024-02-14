@@ -1,0 +1,201 @@
+  /* 
+  Global Styles
+  consistent for every page
+  - nav bar
+  - footer
+  */
+  
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #E7E8DA;
+  }
+  
+  header {
+    background-color: #AE0947;
+    color: #fff;
+    padding: 15px;
+  
+  }
+  
+  header ul {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 0rem 1rem 0rem 0.5rem;
+    list-style-type: none;
+    margin: 0;
+  }
+  
+  header li {
+    margin-right: 15px;
+  }
+  
+  nav {
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  h1 {
+    text-align: center;
+    border: 1px solid;
+  }
+  
+  divform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #F37487;
+    width: 500px;
+    padding: 30px;
+  }
+  
+  input,
+  textarea {
+    background-color: #EAE8D9;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  
+  
+  /* kiki coffee container */
+  .kiki-coffee {
+    width: 300px;
+  }
+  
+  .kiki-coffee img {
+    position: relative;
+    width: 260px;
+    height: 280px;
+    top: 300px;
+  }
+  
+  .kiki-coffee h3 {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 310px;
+    font-family: 'Inter', sans-serif;
+    left: -15px;
+  }
+  
+  .kiki-coffee p {
+    position: relative;
+    top: 320px;
+    color: #696969;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  
+  /* ponyo milk container */
+  .ponyo-milk {
+    width: 300px;
+  }
+  
+  .ponyo-milk img {
+    position: relative;
+    width: 260px;
+    height: 280px;
+    left: 10px;
+    top: 300px;
+  }
+  
+  .ponyo-milk h3 {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 310px;
+    left: -10px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .ponyo-milk p {
+    position: relative;
+    top: 320px;
+    color: #696969;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  
+  /* ghibli-bread container */
+  .ghibli-bread {
+    width: 300px;
+  }
+  
+  .ghibli-bread img {
+    position: relative;
+    width: 260px;
+    height: 280px;
+    top: 300px;
+    left: 15px;
+  }
+  
+  .ghibli-bread h3 {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 310px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .ghibli-bread p {
+    position: relative;
+    top: 320px;
+    color: #696969;
+    font-family: 'Inter', sans-serif;
+    left: 10px;
+  }
+  
+  
+  
+  /* meme */
+  .meme-container {
+    position: relative;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .meme-container img {
+    width: 75%;
+    height: 400px;
+  }
+  
+  
+  
+  
+  
+  /*footer style*/
+  footer{
+  display: flex;
+  padding: 10px;
+  color: #ffffff;
+  justify-content: center;
+  background-color: #a81515;
+  }
